@@ -1,9 +1,7 @@
 from typing import List
 
-def merge_sort(data) -> None:
-  # Write code here
-  def merge_sort(data) -> None:
-  if len(data)>1:
+def merge_sort(data):
+    if len(data)>1:
         mid = len(data)//2
         lefthalf = data[:mid]
         righthalf = data[mid:]
@@ -29,7 +27,6 @@ def merge_sort(data) -> None:
             data[k]=righthalf[j]
             j=j+1
             k=k+1
-
 
 
 # Do not change the following code
